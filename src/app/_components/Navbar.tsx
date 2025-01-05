@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation";
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const pathname = usePathname();
-  const menuRef = useRef(null); // Reference to the menu container
+  const menuRef = useRef<HTMLDivElement | null>(null);
 
   const toggleMenu = () => {
     setIsMenuOpen((prev) => !prev);
@@ -25,9 +25,12 @@ const Navbar: React.FC = () => {
       }
     };
 
-    document.addEventListener("mousedown", handleClickOutside);
+    // Attach event listener on mount
+    document.addEventListener("click", handleClickOutside);
+
+    // Clean up event listener on unmount
     return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener("click", handleClickOutside);
     };
   }, []);
 
@@ -35,7 +38,7 @@ const Navbar: React.FC = () => {
     "Home",
     "Events",
     "Schedule",
-    "Contact",
+    // "Contact",
     // "About",
     // "Gallery",
   ];

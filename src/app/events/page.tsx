@@ -80,160 +80,160 @@ export default function EventsSectionDemo() {
       icon: "IconDocumentText",
       registerLink: "https://forms.gle/example-paper-presentation",
     },
-    PosterPresentation: {
-      title: "Poster Presentation",
-      facultyCoordinators: [
-        { name: "M Suleman Basha", contact: "+91 91770 14186" },
-        { name: "M Jahir Pasha", contact: "+91 99496 25263" },
-      ],
-      studentCoordinators: [
-        {
-          name: "K. Sai Siva Rama Krishna",
-          rollNo: "21091A3239",
-          contact: "+91 99498 28846",
-        },
-        {
-          name: "S. Harshitha",
-          rollNo: "21091A3214",
-          contact: "+91 77802 40189",
-        },
-      ],
-      teamMembers: ["Mabasha", "Suresh", "Anitha", "Kavya", "Jyothi", "Tanuja"],
-      description:
-        "Create an eye-catching and informative poster that communicates your innovative ideas. Perfect for those who want to blend creativity and knowledge.",
-      cost: "₹150 per participant",
-      icon: "IconImage",
-      registerLink: "https://forms.gle/example-poster-presentation",
-      rules: [
-        "Time Limit: 6 minutes presentation, 2 minutes Q&A.",
-        "Poster must be clear, visually appealing, and include graphs, images, or charts.",
-        "Speak clearly, confidently, and maintain eye contact with the audience.",
-        "Dress appropriately and respect the event schedule.",
-      ],
-      painPoints: [
-        "Network issues",
-        "HDMI cable management",
-        "Sensor board setup",
-      ],
-    },
-    TechnicalQuiz: {
-      title: "Technical Quiz",
-      facultyCoordinators: [
-        { name: "Md Shakeer", contact: "+91 91770 14186" },
-        { name: "Rangaswamy", contact: "+91 79891 05881" },
-      ],
-      studentCoordinators: [
-        {
-          name: "K. Vishnu Vardhan Reddy",
-          rollNo: "21091A3264",
-          contact: "+91 95158 92932",
-        },
-        {
-          name: "G. Lohitha Reddy",
-          rollNo: "21091A3219",
-          contact: "+91 62816 45501",
-        },
-      ],
-      teamMembers: [
-        "A. Mounika",
-        "Prasanna",
-        "Manisha",
-        "Supriya",
-        "Kiran",
-        "Amarnath",
-        "Surya",
-      ],
-      description:
-        "Challenge your technical knowledge and quick thinking abilities in a quiz competition that covers various technical domains and problem-solving.",
-      rules: [
-        "Individual participation only.",
-        "No electronic devices allowed.",
-        "Time limit: 1 hour for all rounds.",
-      ],
-      cost: "₹800 per participant",
-      icon: "IconLightbulb",
-      registerLink: "https://forms.gle/example-technical-quiz",
-    },
-    Workshop: {
-      title: "Workshop",
-      facultyCoordinators: [
-        { name: "G Vikram Chandra", contact: "+91 98859 96934" },
-      ],
-      studentCoordinators: [
-        {
-          name: "J. Vamsi Charan",
-          rollNo: "21091A3261",
-          contact: "+91 99080 89699",
-        },
-        {
-          name: "D. Sunitha",
-          rollNo: "21091A3253",
-          contact: "+91 91779 35741",
-        },
-        {
-          name: "K. Naga Harshitha",
-          rollNo: "21091A3228",
-          contact: "+91 93928 69328",
-        },
-        {
-          name: "Vara Prasad",
-          rollNo: "22095A3205",
-          contact: "+91 83670 54233",
-        },
-        {
-          name: "D. Sreevani",
-          rollNo: "21091A3250",
-          contact: "+91 70132 90398",
-        },
-      ],
-      teamMembers: [
-        "Vamsi",
-        "Sunitha",
-        "Naga Harshitha",
-        "Vara Prasad",
-        "Sreevani",
-      ],
-      description:
-        "Attend expert-led workshops designed to enhance your skills in various technical areas, from web development to robotics.",
-      rules: [
-        "Individual participation only.",
-        "No prior knowledge is required.",
-        "Workshop duration: 2 hours.",
-      ],
-      cost: "₹1000 per participant",
-      icon: "IconHammer",
-      registerLink: "https://forms.gle/example-workshop",
-    },
-    WebDevelopment: {
-      title: "Web Development",
-      facultyCoordinators: [
-        { name: "M Suleman Basha", contact: "+91 91770 14187" },
-        { name: "S. Khaleel", contact: "+91 80966 74404" },
-      ],
-      studentCoordinators: [
-        {
-          name: "C. Vivekanandha Reddy",
-          rollNo: "22095A3206",
-          contact: "+91 63049 65782",
-        },
-        {
-          name: "A. Sai Deekshitha",
-          rollNo: "21091A3233",
-          contact: "+91 94403 88230",
-        },
-      ],
-      teamMembers: ["Tirumalesu", "Bhargavi", "Dharani"],
-      description:
-        "Build a responsive and dynamic website that functions seamlessly across different devices, showcasing your web development skills.",
-      rules: [
-        "Individual participation only.",
-        "Use HTML, CSS, JavaScript, or React.js.",
-        "Functionality and design both matter.",
-      ],
-      cost: "₹1200 per participant",
-      icon: "IconDesktop",
-      registerLink: "https://forms.gle/example-web-development",
-    },
+    // PosterPresentation: {
+    //   title: "Poster Presentation",
+    //   facultyCoordinators: [
+    //     { name: "M Suleman Basha", contact: "+91 91770 14186" },
+    //     { name: "M Jahir Pasha", contact: "+91 99496 25263" },
+    //   ],
+    //   studentCoordinators: [
+    //     {
+    //       name: "K. Sai Siva Rama Krishna",
+    //       rollNo: "21091A3239",
+    //       contact: "+91 99498 28846",
+    //     },
+    //     {
+    //       name: "S. Harshitha",
+    //       rollNo: "21091A3214",
+    //       contact: "+91 77802 40189",
+    //     },
+    //   ],
+    //   teamMembers: ["Mabasha", "Suresh", "Anitha", "Kavya", "Jyothi", "Tanuja"],
+    //   description:
+    //     "Create an eye-catching and informative poster that communicates your innovative ideas. Perfect for those who want to blend creativity and knowledge.",
+    //   cost: "₹150 per participant",
+    //   icon: "IconImage",
+    //   registerLink: "https://forms.gle/example-poster-presentation",
+    //   rules: [
+    //     "Time Limit: 6 minutes presentation, 2 minutes Q&A.",
+    //     "Poster must be clear, visually appealing, and include graphs, images, or charts.",
+    //     "Speak clearly, confidently, and maintain eye contact with the audience.",
+    //     "Dress appropriately and respect the event schedule.",
+    //   ],
+    //   painPoints: [
+    //     "Network issues",
+    //     "HDMI cable management",
+    //     "Sensor board setup",
+    //   ],
+    // },
+    // TechnicalQuiz: {
+    //   title: "Technical Quiz",
+    //   facultyCoordinators: [
+    //     { name: "Md Shakeer", contact: "+91 91770 14186" },
+    //     { name: "Rangaswamy", contact: "+91 79891 05881" },
+    //   ],
+    //   studentCoordinators: [
+    //     {
+    //       name: "K. Vishnu Vardhan Reddy",
+    //       rollNo: "21091A3264",
+    //       contact: "+91 95158 92932",
+    //     },
+    //     {
+    //       name: "G. Lohitha Reddy",
+    //       rollNo: "21091A3219",
+    //       contact: "+91 62816 45501",
+    //     },
+    //   ],
+    //   teamMembers: [
+    //     "A. Mounika",
+    //     "Prasanna",
+    //     "Manisha",
+    //     "Supriya",
+    //     "Kiran",
+    //     "Amarnath",
+    //     "Surya",
+    //   ],
+    //   description:
+    //     "Challenge your technical knowledge and quick thinking abilities in a quiz competition that covers various technical domains and problem-solving.",
+    //   rules: [
+    //     "Individual participation only.",
+    //     "No electronic devices allowed.",
+    //     "Time limit: 1 hour for all rounds.",
+    //   ],
+    //   cost: "₹800 per participant",
+    //   icon: "IconLightbulb",
+    //   registerLink: "https://forms.gle/example-technical-quiz",
+    // },
+    // Workshop: {
+    //   title: "Workshop",
+    //   facultyCoordinators: [
+    //     { name: "G Vikram Chandra", contact: "+91 98859 96934" },
+    //   ],
+    //   studentCoordinators: [
+    //     {
+    //       name: "J. Vamsi Charan",
+    //       rollNo: "21091A3261",
+    //       contact: "+91 99080 89699",
+    //     },
+    //     {
+    //       name: "D. Sunitha",
+    //       rollNo: "21091A3253",
+    //       contact: "+91 91779 35741",
+    //     },
+    //     {
+    //       name: "K. Naga Harshitha",
+    //       rollNo: "21091A3228",
+    //       contact: "+91 93928 69328",
+    //     },
+    //     {
+    //       name: "Vara Prasad",
+    //       rollNo: "22095A3205",
+    //       contact: "+91 83670 54233",
+    //     },
+    //     {
+    //       name: "D. Sreevani",
+    //       rollNo: "21091A3250",
+    //       contact: "+91 70132 90398",
+    //     },
+    //   ],
+    //   teamMembers: [
+    //     "Vamsi",
+    //     "Sunitha",
+    //     "Naga Harshitha",
+    //     "Vara Prasad",
+    //     "Sreevani",
+    //   ],
+    //   description:
+    //     "Attend expert-led workshops designed to enhance your skills in various technical areas, from web development to robotics.",
+    //   rules: [
+    //     "Individual participation only.",
+    //     "No prior knowledge is required.",
+    //     "Workshop duration: 2 hours.",
+    //   ],
+    //   cost: "₹1000 per participant",
+    //   icon: "IconHammer",
+    //   registerLink: "https://forms.gle/example-workshop",
+    // },
+    // WebDevelopment: {
+    //   title: "Web Development",
+    //   facultyCoordinators: [
+    //     { name: "M Suleman Basha", contact: "+91 91770 14187" },
+    //     { name: "S. Khaleel", contact: "+91 80966 74404" },
+    //   ],
+    //   studentCoordinators: [
+    //     {
+    //       name: "C. Vivekanandha Reddy",
+    //       rollNo: "22095A3206",
+    //       contact: "+91 63049 65782",
+    //     },
+    //     {
+    //       name: "A. Sai Deekshitha",
+    //       rollNo: "21091A3233",
+    //       contact: "+91 94403 88230",
+    //     },
+    //   ],
+    //   teamMembers: ["Tirumalesu", "Bhargavi", "Dharani"],
+    //   description:
+    //     "Build a responsive and dynamic website that functions seamlessly across different devices, showcasing your web development skills.",
+    //   rules: [
+    //     "Individual participation only.",
+    //     "Use HTML, CSS, JavaScript, or React.js.",
+    //     "Functionality and design both matter.",
+    //   ],
+    //   cost: "₹1200 per participant",
+    //   icon: "IconDesktop",
+    //   registerLink: "https://forms.gle/example-web-development",
+    // },
   };
 
   const nonTechnicalEvents = [
@@ -352,35 +352,35 @@ export default function EventsSectionDemo() {
       ],
       TeamMembers: ["Afrid", "Rushi", "Omkar", "Khaleel"],
     },
-    {
-      title: "Tug O' War",
-      description:
-        "A test of strength and teamwork where teams compete in a thrilling tug-of-war challenge.",
-      rules: [
-        "Each team must consist of 5 members.",
-        "The rope should remain straight and free of any obstructions.",
-        "The team that crosses the centerline wins.",
-        "No forceful actions or foul play allowed.",
-        "Teams must be coordinated to pull together at once.",
-      ],
-      FacultyCoordinators: [
-        { Name: "P Penchal Prasad", Contact: "+91 90305 51881" },
-        { Name: "M Jahir Pasha", Contact: "+91 99496 25263" },
-      ],
-      StudentCoordinators: [
-        {
-          Name: "N. Sethu Madhava",
-          RollNo: "21091A3221",
-          Contact: "+91 93921 00255",
-        },
-        {
-          Name: "G. Surya Prakash",
-          RollNo: "21091A3257",
-          Contact: "+91 78158 90683",
-        },
-      ],
-      TeamMembers: ["Akram", "Sudharshan"],
-    },
+    // {
+    //   title: "Tug O' War",
+    //   description:
+    //     "A test of strength and teamwork where teams compete in a thrilling tug-of-war challenge.",
+    //   rules: [
+    //     "Each team must consist of 5 members.",
+    //     "The rope should remain straight and free of any obstructions.",
+    //     "The team that crosses the centerline wins.",
+    //     "No forceful actions or foul play allowed.",
+    //     "Teams must be coordinated to pull together at once.",
+    //   ],
+    //   FacultyCoordinators: [
+    //     { Name: "P Penchal Prasad", Contact: "+91 90305 51881" },
+    //     { Name: "M Jahir Pasha", Contact: "+91 99496 25263" },
+    //   ],
+    //   StudentCoordinators: [
+    //     {
+    //       Name: "N. Sethu Madhava",
+    //       RollNo: "21091A3221",
+    //       Contact: "+91 93921 00255",
+    //     },
+    //     {
+    //       Name: "G. Surya Prakash",
+    //       RollNo: "21091A3257",
+    //       Contact: "+91 78158 90683",
+    //     },
+    //   ],
+    //   TeamMembers: ["Akram", "Sudharshan"],
+    // },
     {
       title: "Offline Games",
       description:
@@ -470,7 +470,7 @@ const Section = ({ title, events }: { title: string; events: any }) => (
       {title}
     </h2>
     <div className="flex justify-center flex-wrap gap-8">
-      {events.map((event, index) => (
+      {events.map((event: any, index: any) => (
         <motion.div
           key={event.title}
           initial={{ opacity: 0, y: 50 }}
