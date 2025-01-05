@@ -1,7 +1,7 @@
 import React from "react";
 import { Spotlight } from "@/components/ui/spotlight";
 import CountdownTimer from "@/app/_components/Timer";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 export default function SpotlightPreview() {
   return (
