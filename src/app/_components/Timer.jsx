@@ -47,7 +47,7 @@ const Timer = ({ targetDate }) => {
         transition={{ duration: 0.8 }}
         className="text-2xl md:text-3xl font-bold text-white bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent mb-6 text-center"
       >
-        Countdown to December 25, 2025
+        Countdown to January 25, 2025
       </motion.h1>
 
       {/* Timer - Centered */}
