@@ -1,7 +1,5 @@
 "use client";
-// import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
-import { register } from "module";
 
 export default function EventsSectionDemo() {
   const technicalEvents = {
@@ -505,18 +503,6 @@ export default function EventsSectionDemo() {
       title: "E- Arena (Free Fire)",
       description:
         "Participate in competitive online games, showcasing your strategic thinking and quick reflexes.",
-      rules: [
-        "No cheating or exploiting bugs in the game.",
-        "Players must follow the game’s official rules.",
-        "Every player must be present in offline mode during the game.",
-        "Internet facilities will be provided; however, if players face issues, they must switch to their mobile data.",
-        "Teams must adhere to the event schedule and respect the event's timeline.",
-        "Each player can participate in only one game or team.",
-        "Teams are not allowed to change members after registration.",
-        "The top squad from each match will win the prize.",
-        "The format for Free Fire and PUBG will be the same.",
-        "The decision of the judges and event coordinators is final.",
-      ],
       FacultyCoordinators: [
         { Name: "Y. P. Srinath Reddy", Contact: "+91 99492 82667" },
         { Name: "G. Vikram Chandra", Contact: "+91 98859 96934" },
