@@ -61,82 +61,7 @@ export default function EventsSectionDemo() {
       icon: "IconEaseInOut",
       registerLink: "https://forms.gle/3ResqKSz9x8aCFW26",
     },
-    PaperPresentation: {
-      title: "Paperlogue",
-      facultyCoordinators: [
-        {
-          name: "Dr. M. Suleman Basha",
-          contact: "+91 91770 14186",
-        },
-        {
-          name: "Dr. M. SriRaghavendra",
-          contact: "+91 90523 87499",
-        },
-      ],
-      studentCoordinators: [
-        {
-          name: "C. Dwarka Sandeep",
-          rollNo: "21091A3212",
-          contact: "+91 78424 93040",
-        },
-        {
-          name: "B. Bhavana",
-          rollNo: "21091A3209",
-          contact: "+91 86391 40540",
-        },
-      ],
-      teamMembers: ["Dhanush", "Hemanth", "Thanusree", "Deekshitha", "Athika"],
-      description:
-        "Showcase your research and analytical skills through a compelling presentation designed to communicate ideas effectively.",
-      rules: [
-        "Time Limit: Maximum of 6 minutes to present the paper & 3 minutes after each presentation.",
-        "Content and Slide Design.",
-        "Presentation Skills.",
-        "Engagement with the Audience.",
-        "Professionalism and Preparation.",
-        "Team Presentation (if applicable).",
-      ],
-      cost: "₹150 per participant",
-      icon: "IconDocumentText",
-      registerLink: "https://forms.gle/hTpwEcZr1i6v3Qfp8",
-    },
-    PosterPresentation: {
-      title: "Postora",
-      facultyCoordinators: [
-        { name: "Dr. M. Suleman Basha", contact: "+91 91770 14186" },
-        { name: "Dr. M. Jahir Pasha", contact: "+91 99496 25263" },
-      ],
-      studentCoordinators: [
-        {
-          name: "K. Sai Siva Rama Krishna",
-          rollNo: "21091A3239",
-          contact: "+91 99498 28846",
-        },
-        {
-          name: "S. Harshitha",
-          rollNo: "21091A3214",
-          contact: "+91 77802 40189",
-        },
-      ],
-      teamMembers: ["Mabasha", "Suresh", "Anitha", "Kavya", "Jyothi", "Tanuja"],
-      description:
-        "Participate in a poster presentation event at Rajeev Gandhi Memorial College of Engineering & Technology, blending creativity and knowledge to communicate innovative ideas effectively.",
-      rules: [
-        "Time Limit: Presentation: 4 minutes maximum, Q&A Session: 2 minutes after each presentation.",
-        "Poster Design: Must be clear, visually appealing, and include key points. Use graphs, images, and charts where applicable to enhance understanding.",
-        "Presentation Skills: Speak clearly and confidently. Maintain eye contact with the audience. Use gestures to emphasize points.",
-        "Professionalism: Dress appropriately for the presentation. Respect the time of others and adhere to the schedule.",
-      ],
-      cost: "₹150 per participant",
-      teamSize: "1-2 members",
-      icon: "IconImage",
-      registerLink: "https://forms.gle/Pwr3DxiM2GWEH9Cj9",
-      painPoints: [
-        "Network issues",
-        "HDMI cable management",
-        "Sensor board setup",
-      ],
-    },
+
     TechnicalQuiz: {
       title: "TechTussle",
       facultyCoordinators: [
@@ -254,7 +179,82 @@ export default function EventsSectionDemo() {
         "Diverse Skill Levels: Managing participants with vastly different knowledge levels can be challenging.",
       ],
     },
-
+    PaperPresentation: {
+      title: "Paperlogue",
+      facultyCoordinators: [
+        {
+          name: "Dr. M. Suleman Basha",
+          contact: "+91 91770 14186",
+        },
+        {
+          name: "Dr. M. SriRaghavendra",
+          contact: "+91 90523 87499",
+        },
+      ],
+      studentCoordinators: [
+        {
+          name: "C. Dwarka Sandeep",
+          rollNo: "21091A3212",
+          contact: "+91 78424 93040",
+        },
+        {
+          name: "B. Bhavana",
+          rollNo: "21091A3209",
+          contact: "+91 86391 40540",
+        },
+      ],
+      teamMembers: ["Dhanush", "Hemanth", "Thanusree", "Deekshitha", "Athika"],
+      description:
+        "Showcase your research and analytical skills through a compelling presentation designed to communicate ideas effectively.",
+      rules: [
+        "Time Limit: Maximum of 6 minutes to present the paper & 3 minutes after each presentation.",
+        "Content and Slide Design.",
+        "Presentation Skills.",
+        "Engagement with the Audience.",
+        "Professionalism and Preparation.",
+        "Team Presentation (if applicable).",
+      ],
+      cost: "₹150 per participant",
+      icon: "IconDocumentText",
+      registerLink: "https://forms.gle/hTpwEcZr1i6v3Qfp8",
+    },
+    PosterPresentation: {
+      title: "Postora",
+      facultyCoordinators: [
+        { name: "Dr. M. Suleman Basha", contact: "+91 91770 14186" },
+        { name: "Dr. M. Jahir Pasha", contact: "+91 99496 25263" },
+      ],
+      studentCoordinators: [
+        {
+          name: "K. Sai Siva Rama Krishna",
+          rollNo: "21091A3239",
+          contact: "+91 99498 28846",
+        },
+        {
+          name: "S. Harshitha",
+          rollNo: "21091A3214",
+          contact: "+91 77802 40189",
+        },
+      ],
+      teamMembers: ["Mabasha", "Suresh", "Anitha", "Kavya", "Jyothi", "Tanuja"],
+      description:
+        "Participate in a poster presentation event at Rajeev Gandhi Memorial College of Engineering & Technology, blending creativity and knowledge to communicate innovative ideas effectively.",
+      rules: [
+        "Time Limit: Presentation: 4 minutes maximum, Q&A Session: 2 minutes after each presentation.",
+        "Poster Design: Must be clear, visually appealing, and include key points. Use graphs, images, and charts where applicable to enhance understanding.",
+        "Presentation Skills: Speak clearly and confidently. Maintain eye contact with the audience. Use gestures to emphasize points.",
+        "Professionalism: Dress appropriately for the presentation. Respect the time of others and adhere to the schedule.",
+      ],
+      cost: "₹150 per participant",
+      teamSize: "1-2 members",
+      icon: "IconImage",
+      registerLink: "https://forms.gle/Pwr3DxiM2GWEH9Cj9",
+      painPoints: [
+        "Network issues",
+        "HDMI cable management",
+        "Sensor board setup",
+      ],
+    },
     WebDevelopment: {
       title: "WebForge",
       facultyCoordinators: [
