@@ -16,9 +16,9 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Advitiya 2k24 🔥",
+  title: "Advitiya 2K25 🔥",
   description:
-    "Advitiya 2k24 🔥 is the college event conducted by CSEDS RGMCET #advitiyians #rgmcet #cseds",
+    "Advitiya 2k25 🔥 is the college event conducted by CSEDS RGMCET #advitiyians #rgmcet #cseds",
 };
 
 export default function RootLayout({

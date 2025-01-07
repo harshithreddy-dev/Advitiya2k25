@@ -19,12 +19,12 @@ export default function SpotlightPreview() {
       <div className="relative z-20 w-full flex flex-col items-center text-center space-y-8 sm:space-y-10 px-6 max-w-6xl">
         {/* Title */}
         <h1 className="bg-clip-text bg-gradient-to-r from-purple-400 via-pink-400 to-yellow-300 font-extrabold text-transparent text-5xl md:text-6xl lg:text-8xl tracking-tight drop-shadow-lg animate-pulse">
-          ADVITIYA 2k25
+          ADVITIYA 2K25
         </h1>
 
         {/* Description */}
         <p className="text-gray-300 text-lg sm:text-xl max-w-3xl leading-relaxed drop-shadow-lg">
-          <span className="font-semibold text-cyan-400">Advitiya 2k25</span> is
+          <span className="font-semibold text-cyan-400">Advitiya 2K25</span> is
           a technology-focused event by the{" "}
           <span className="font-semibold text-purple-300">
             CSE Data Science Department
