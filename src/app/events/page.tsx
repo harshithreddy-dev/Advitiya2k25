@@ -208,12 +208,10 @@ export default function EventsSectionDemo() {
       description:
         "Showcase your research and analytical skills through a compelling presentation designed to communicate ideas effectively.",
       rules: [
-        "Time Limit: Maximum of 6 minutes to present the paper & 3 minutes after each presentation.",
-        "Content and Slide Design.",
-        "Presentation Skills.",
-        "Engagement with the Audience.",
-        "Professionalism and Preparation.",
-        "Team Presentation (if applicable).",
+        "Time Limit: Presentation: 6 minutes maximum, Q&A Session: 3 minutes after each presentation.",
+        "Paper Rules: Must be an IEEE format paper submitted before the event commences.",
+        "Presentation Skills: Speak clearly and confidently. Maintain eye contact with the audience. Use gestures to emphasize points.",
+        "Professionalism: Dress appropriately for the presentation. Respect the time of others and adhere to the schedule.",
       ],
       cost: "₹150 per participant",
       icon: "IconDocumentText",
@@ -241,7 +239,7 @@ export default function EventsSectionDemo() {
       description:
         "Participate in a poster presentation event at Rajeev Gandhi Memorial College of Engineering & Technology, blending creativity and knowledge to communicate innovative ideas effectively.",
       rules: [
-        "Time Limit: Presentation: 4 minutes maximum, Q&A Session: 2 minutes after each presentation.",
+        "Time Limit: Presentation: 6 minutes maximum, Q&A Session: 3 minutes after each presentation.",
         "Poster Design: Must be clear, visually appealing, and include key points. Use graphs, images, and charts where applicable to enhance understanding.",
         "Presentation Skills: Speak clearly and confidently. Maintain eye contact with the audience. Use gestures to emphasize points.",
         "Professionalism: Dress appropriately for the presentation. Respect the time of others and adhere to the schedule.",
@@ -775,6 +773,26 @@ export default function EventsSectionDemo() {
       activity: "Singing",
       teamSize: "Individual, Duet, or Group (max 3)",
       cost: "₹100 per head",
+    },
+    {
+      title: "Entreva",
+      description:
+        "Showcase your entrepreneurial skills by participating in various stalls and activities.",
+      Activity: "Entrepreneurship",
+      FacultyCoordinators: [{ Name: "Mr. B. Bhaskara Rao" }],
+      Heads: [
+        { Name: "V. Sravan Kumar", Contact: "+91 63097 92178" },
+        { Name: "K. Sai Deepika", Contact: "+91 97049 23588" },
+      ],
+      StallTypes: ["Food stalls", "Challenges and Games", "Crafts stalls"],
+      rules: [
+        "All stall owners must adhere to the event schedule.",
+        "Stalls should be set up 30 minutes prior to the event start time.",
+        "Ensure cleanliness and proper waste management at your stall.",
+        "Participants are encouraged to promote their stalls creatively.",
+        "Respect for all visitors and fellow stall owners is mandatory.",
+      ],
+      registerLink: "https://forms.gle/mURzrhX1H7d7hooR9",
     },
   ];
 
