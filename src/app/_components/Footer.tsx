@@ -9,9 +9,9 @@ const Footer = () => {
         {/* Top Section */}
         <div className="text-center mb-4">
           <p className="text-sm text-gray-300">
-            <span className="font-bold text-white">Advitiya</span> – Built with{" "}
+            <span className="font-bold text-white">ADVITIYA</span> – Built with{" "}
             <span className="text-pink-500">❤️</span> by{" "}
-            <span className="font-bold text-blue-400">CSEDS RGMCET</span> &{" "}
+            <span className="font-bold text-blue-400">CSE(DS) RGMCET</span> &{" "}
             <span className="font-bold text-green-400">Advitiyans</span>.
           </p>
         </div>
@@ -24,7 +24,7 @@ const Footer = () => {
           {/* Copyright Text */}
           <p className="text-xs text-gray-500 lg:order-none">
             &copy; {new Date().getFullYear()}{" "}
-            <span className="text-gray-300 font-semibold">Advitiya</span>. All
+            <span className="text-gray-300 font-semibold">ADVITIYA</span>. All
             rights reserved.
           </p>
 
