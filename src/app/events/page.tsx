@@ -791,6 +791,7 @@ export default function EventsSectionDemo() {
         "Ensure cleanliness and proper waste management at your stall.",
         "Participants are encouraged to promote their stalls creatively.",
         "Respect for all visitors and fellow stall owners is mandatory.",
+        "Stall types include: Food stalls, Challenges and Games, Crafts stalls.",
       ],
       registerLink: "https://forms.gle/mURzrhX1H7d7hooR9",
     },
