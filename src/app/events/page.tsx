@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import { register } from "module";
 
 export default function EventsSectionDemo() {
   const technicalEvents = {
@@ -102,7 +103,7 @@ export default function EventsSectionDemo() {
         "Decisions made by the quiz master are final and binding.",
         "Any team found violating rules will be immediately disqualified.",
       ],
-      cost: "₹100 per participant & 600 per team",
+      cost: "₹100 per participant & ₹600 per team",
       teamSize: "Based upon registrations",
       icon: "IconLightbulb",
       registerLink: "https://forms.gle/RptBRuHm1hzr2rgN6",
@@ -164,7 +165,7 @@ export default function EventsSectionDemo() {
         "Refrain from engaging in unrelated activities during the workshop.",
         "Participants are encouraged to provide constructive feedback at the end of the session.",
       ],
-      cost: "250 per participant",
+      cost: "₹250 per participant",
       teamSize: "Individual",
       icon: "IconHammer",
       registerLink: "https://forms.gle/6kJxhr4gVuWoq3Bj6",
@@ -490,7 +491,7 @@ export default function EventsSectionDemo() {
           Contact: "+91 91105 29914",
         },
       ],
-      cost: "50 per participant",
+      cost: "₹50 per participant",
       registerLink: "https://forms.gle/5Nt9YtGK73eGXjA99",
       TeamMembers: [
         "K. Mohan Krishna",
@@ -499,8 +500,9 @@ export default function EventsSectionDemo() {
         "J. P. Samantha",
       ],
     },
+
     {
-      title: "E- Arena (Free Fire)",
+      title: "E- Arena (BGMI)",
       description:
         "Participate in competitive online games, showcasing your strategic thinking and quick reflexes.",
       FacultyCoordinators: [
@@ -520,21 +522,18 @@ export default function EventsSectionDemo() {
         },
       ],
       rules: [
-        "Event Format:",
-        "- One Bermuda Match will be conducted.",
-        "- The top squad from the match will win the prize.",
-        "- In case of a tie, a TDM match will be conducted.",
-        "General Rules:",
-        "1. Ensure fair play and respect for all participants.",
-        "2. Teams must adhere to the event schedule.",
-        "3. Players facing internet issues are expected to switch to their mobile data.",
+        "One Erangel Match will be conducted.",
+        "The top squad from the match will win the prize.",
+        "In case of a tie, TDM will be conducted.",
+        "Ensure fair play and respect for all participants.",
+        "Teams must adhere to the event schedule.",
       ],
-      cost: "50 per head & 200 per team",
-      registerLink: "https://forms.gle/m3q3AzQWYw2JmkH48",
+      cost: "₹50 per head & ₹200 per team",
+      registerLink: "https://forms.gle/6d8apZHpDBMKNUQ86",
       TeamMembers: ["Afrid", "Rushi", "Omkar", "Khaleel"],
     },
     {
-      title: "E- Arena (PUBG)",
+      title: "E- Arena (Freefire)",
       description:
         "Participate in competitive online games, showcasing your strategic thinking and quick reflexes.",
       FacultyCoordinators: [
@@ -554,16 +553,15 @@ export default function EventsSectionDemo() {
         },
       ],
       rules: [
-        "Event Format:",
-        "- One Bermuda Match will be conducted.",
-        "- The top squad from the match will win the prize.",
-        "- In case of a tie, Clash Squad will be conducted.",
-        "General Rules:",
-        "1. Ensure fair play and respect for all participants.",
-        "2. Teams must adhere to the event schedule.",
+        "One Bermuda Match will be conducted.",
+        "The top squad from the match will win the prize.",
+        "In case of a tie, a Clash Squad match will be conducted.",
+        "Ensure fair play and respect for all participants.",
+        "Teams must adhere to the event schedule.",
+        "Players facing internet issues are expected to switch to their mobile data.",
       ],
-      cost: "50 per head & 200 per team",
-      registerLink: "https://forms.gle/6d8apZHpDBMKNUQ86",
+      cost: "₹50 per head & ₹200 per team",
+      registerLink: "https://forms.gle/m3q3AzQWYw2JmkH48",
       TeamMembers: ["Afrid", "Rushi", "Omkar", "Khaleel"],
     },
 
@@ -605,6 +603,7 @@ export default function EventsSectionDemo() {
           contact: "+91 77994 81411",
         },
       ],
+      registerLink: "https://forms.gle/tTTMV9XJubiPp2Bo8",
       teamMembers: ["Gafoor", "Pream", "Tanuja", "Shreya"],
       locationDetails: {
         collegeName:
@@ -620,7 +619,7 @@ export default function EventsSectionDemo() {
         chess: "Individual",
         carroms: "2",
       },
-      cost: "50 per head",
+      cost: "₹50 per head",
     },
     {
       title: "PlayZone (Carroms)",
@@ -675,8 +674,8 @@ export default function EventsSectionDemo() {
         chess: "Individual",
         carroms: "2",
       },
-      registerLink: "https://forms.gle/Mqc85vnCTrz9q2WLA",
-      cost: "50 per head",
+      registerLink: "https://forms.gle/gM9Y6KwU7KQJqMdk9",
+      cost: "₹50 per head",
     },
     {
       title: "Melodify",
@@ -725,7 +724,7 @@ export default function EventsSectionDemo() {
       registerLink: "https://forms.gle/49RisutNcZ1pF2Qe9",
       activity: "Singing",
       teamSize: "Individual, Duet, or Group (max 3)",
-      cost: "100 rs per head",
+      cost: "₹100 rs per head",
     },
     {
       title: "Groove Battle",
@@ -775,7 +774,7 @@ export default function EventsSectionDemo() {
       registerLink: "https://forms.gle/2Stjn8bhr73LnPxo7",
       activity: "Singing",
       teamSize: "Individual, Duet, or Group (max 3)",
-      cost: "100 per head",
+      cost: "₹100 per head",
     },
   ];
 

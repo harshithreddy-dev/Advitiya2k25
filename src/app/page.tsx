@@ -24,10 +24,10 @@ export default function SpotlightPreview() {
 
         {/* Description */}
         <p className="text-gray-300 text-lg sm:text-xl max-w-3xl leading-relaxed drop-shadow-lg">
-          <span className="font-semibold text-cyan-400">Advitiya 2K25</span> is
+          <span className="font-semibold text-cyan-400">ADVITIYA 2K25</span> is
           a technology-focused event by the{" "}
           <span className="font-semibold text-purple-300">
-            CSE Data Science Department
+            CSE (Data Science) Department
           </span>{" "}
           of <span className="text-teal-400 font-semibold">RGMCET</span>,
           featuring{" "}

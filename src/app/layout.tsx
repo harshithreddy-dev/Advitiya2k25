@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     "Advitiya 2k25 🔥 is the college event conducted by CSEDS RGMCET #advitiyians #rgmcet #cseds",
 };
 
-export default function RootLayout({
+export default function RootLayout({ 
   children,
 }: Readonly<{
   children: React.ReactNode;
