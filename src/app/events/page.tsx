@@ -722,7 +722,7 @@ export default function EventsSectionDemo() {
       registerLink: "https://forms.gle/49RisutNcZ1pF2Qe9",
       activity: "Singing",
       teamSize: "Individual, Duet, or Group (max 3)",
-      cost: "₹100 rs per head",
+      cost: "₹100 per head",
     },
     {
       title: "Groove Battle",
