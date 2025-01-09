@@ -559,7 +559,7 @@ export default function EventsSectionDemo() {
         "Players facing internet issues are expected to switch to their mobile data.",
       ],
       cost: "₹50 per head & ₹200 per team",
-      registerLink: "https://forms.gle/m3q3AzQWYw2JmkH48",
+      registerLink: "https://forms.gle/gRDXQJLFksrgbTBt5",
       TeamMembers: ["Afrid", "Rushi", "Omkar", "Khaleel"],
     },
 
