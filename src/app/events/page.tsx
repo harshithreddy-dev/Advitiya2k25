@@ -92,7 +92,7 @@ export default function EventsSectionDemo() {
       description:
         "Participate in an engaging and competitive technical quiz event as part of ADVITIYA 2K25 at Rajeev Gandhi Memorial College of Engineering & Technology. Showcase your knowledge and quick thinking to emerge victorious.",
       rules: [
-        "Round 1: 24 teams participate. Each team answers 3 questions. Correct answer: 10 points, Skipped/Incorrect: -5 points. Top 12 teams qualify; 12 teams eliminated.",
+        "Round 1: 24 teams participate. Each team answers 3 questions. Correct answer: 10 points, Skipped/Incorrect: 5 points. Top 12 teams qualify; 12 teams eliminated.",
         "Round 2: 12 teams compete. Same scoring system as Round 1. Top 6 teams qualify; 6 teams eliminated.",
         "Round 3: 6 teams compete. Same scoring system applies. Top 3 teams qualify; 3 teams eliminated.",
         "Final Round: 3 teams compete. Teams must answer within a fixed time frame. 2 teams will win prizes.",
