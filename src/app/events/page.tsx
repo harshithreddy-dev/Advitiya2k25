@@ -1,6 +1,5 @@
 "use client";
 import { motion } from "framer-motion";
-import { register } from "module";
 
 export default function EventsSectionDemo() {
   const technicalEvents = {
@@ -44,7 +43,7 @@ export default function EventsSectionDemo() {
         "Round 2: Three coding problems (Easy, Medium, and Hard level). Duration: 1 hour.",
         "Round 3: One coding problem. Duration: 30 minutes.",
         "General Rules:",
-        "Participants can compete individually or in teams of up to 2 members.",
+        "Participation is only allowed in teams of exactly 2 members.",
         "Use any approved programming languages: C, C++, Python, or Java.",
         "Participants must have a basic understanding of the C language.",
         "All code must be written and submitted directly on the contest platform.",
@@ -727,7 +726,7 @@ export default function EventsSectionDemo() {
     {
       title: "Groove Battle",
       description:
-        "Show off your vocal skills in this singing competition and captivate the audience with your performance.",
+        "Show off your dance skills in this competition and captivate the audience with your performance.",
       rules: [
         "They should finish their performance within the allotted time.",
         "Any song theme based on their interest.",
