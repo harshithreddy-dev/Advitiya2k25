@@ -1,9 +1,18 @@
+"use client";
 import React from "react";
 import { Spotlight } from "@/components/ui/spotlight";
 import CountdownTimer from "@/app/_components/Timer";
+import { useRouter } from "next/navigation";
+
 // import { motion } from "framer-motion";
 
 export default function SpotlightPreview() {
+  const router = useRouter();
+
+  const handleRegister = () => {
+    router.push("/events");
+  };
+
   return (
     <div className="relative flex-grow min-h-screen w-full flex items-center justify-center antialiased overflow-hidden bg-gradient-to-b from-indigo-900 via-black to-gray-900">
       {/* Background Animation */}
@@ -40,7 +49,12 @@ export default function SpotlightPreview() {
           to learn and showcase your skills in an immersive and vibrant
           environment.
         </p>
-
+        <button
+          onClick={handleRegister}
+          className="mt-6 px-8 py-3 bg-gradient-to-r from-black-400 via-blue-500 to-purple-600 text-white font-semibold text-lg rounded-lg shadow-lg hover:scale-105 transition-transform"
+        >
+          Register Here
+        </button>
         {/* Countdown Timer */}
         <div className="flex flex-col items-center justify-center mt-10 px-6 py-8 rounded-lg w-full max-w-md">
           <h3 className="text-xl sm:text-2xl text-pink-400 font-semibold mb-4">
