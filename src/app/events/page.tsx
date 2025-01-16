@@ -153,8 +153,7 @@ export default function EventsSectionDemo() {
         "Vara Prasad",
         "Sreevani",
       ],
-      description:
-        "Participate in an immersive, expert-led workshop at ADVITIYA 2K25 to enhance your technical skills in various domains. A hands-on learning experience awaits you!"
+      description:"Welcome to our workshop! Explore six domains, master technologies, gain insights, and unlock career opportunities with industry experts. Your journey starts now!",
       rules: [
         "Participants must arrive at the venue at least 15 minutes before the scheduled start time.",
         "Mobile phones must be kept on silent mode during the sessions.",
