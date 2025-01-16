@@ -92,17 +92,18 @@ export default function EventsSectionDemo() {
       description:
         "Participate in an engaging and competitive technical quiz event as part of ADVITIYA 2K25 at Rajeev Gandhi Memorial College of Engineering & Technology. Showcase your knowledge and quick thinking to emerge victorious.",
       rules: [
-        "Round 1: 24 teams participate. Each team answers 3 questions. Correct answer: 10 points, Skipped/Incorrect: 5 points. Top 12 teams qualify; 12 teams eliminated.",
-        "Round 2: 12 teams compete. Same scoring system as Round 1. Top 6 teams qualify; 6 teams eliminated.",
-        "Round 3: 6 teams compete. Same scoring system applies. Top 3 teams qualify; 3 teams eliminated.",
-        "Final Round: 3 teams compete. Teams must answer within a fixed time frame. 2 teams will win prizes.",
-        "General Rules:",
-        "Time limits will be strictly enforced for all rounds, especially the final round.",
-        "No use of mobile phones, books, or external help during the quiz.",
-        "Decisions made by the quiz master are final and binding.",
-        "Any team found violating rules will be immediately disqualified.",
+        "Round 1: 24 teams participate. Each team will be asked 3 questions.",
+        "Correct answer to own question: 10 points.",
+        "Correct answer to passed question: 5 points.",
+        "Top 12 teams will qualify for 2nd round; 12 teams will be eliminated.",
+        "Round 2: 12 teams will compete. Same scoring system as Round 1.",
+        "Top 6 teams will qualify; 6 teams will be eliminated.",
+        "Round 3: 6 teams will compete. Same scoring system applies.",
+        "Top 3 teams will qualify; 3 teams will be eliminated.",
+        "Final Round: 3 teams will compete. Teams must answer within a fixed time limit.",
+        "Highest scoring team will be awarded with the 1st prize; the second highest scoring team will be awarded with 2nd prize.",
       ],
-      cost: "₹100 per participant & ₹600 per team",
+      cost: "₹100 per participant",
       teamSize: "Based upon registrations",
       icon: "IconLightbulb",
       registerLink: "https://forms.gle/RptBRuHm1hzr2rgN6",
@@ -153,7 +154,7 @@ export default function EventsSectionDemo() {
         "Sreevani",
       ],
       description:
-        "Participate in an immersive, expert-led workshop at ADVITIYA 2K25 to enhance your technical skills in domains like web development and robotics. A hands-on learning experience awaits you!",
+        "Participate in an immersive, expert-led workshop at ADVITIYA 2K25 to enhance your technical skills in various domains. A hands-on learning experience awaits you!"
       rules: [
         "Participants must arrive at the venue at least 15 minutes before the scheduled start time.",
         "Mobile phones must be kept on silent mode during the sessions.",
