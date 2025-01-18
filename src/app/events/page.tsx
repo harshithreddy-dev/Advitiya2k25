@@ -616,7 +616,7 @@ export default function EventsSectionDemo() {
         chess: "Individual",
         carroms: "2",
       },
-      cost: "₹50 per team",
+      cost: "₹50 per head",
     },
     {
       title: "PlayZone (Carroms)",
@@ -672,7 +672,7 @@ export default function EventsSectionDemo() {
         carroms: "2",
       },
       registerLink: "https://forms.gle/gM9Y6KwU7KQJqMdk9",
-      cost: "₹50 per head",
+      cost: "₹50 per team",
     },
     {
       title: "Melodify",
