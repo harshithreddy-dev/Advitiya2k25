@@ -39,17 +39,17 @@ export default function EventsSectionDemo() {
       description:
         "Showcase your coding skills in a high-stakes, competitive environment designed to challenge the best minds.",
       rules: [
-        "Round 1: MCQs and one pattern question. Duration: 30 minutes.",
-        "Round 2: Three coding problems (Easy, Medium, and Hard level). Duration: 1 hour.",
-        "Round 3: One coding problem. Duration: 30 minutes.",
-        "General Rules:",
-        "Participation is only allowed in teams of exactly 2 members.",
-        "Participants must solve all the 3 questions in C language only.No other languages are allowed",
-        "All code must be written and submitted directly on the contest platform.",
-        "Plagiarism or sharing solutions will lead to immediate disqualification.",
-        "Judge decisions are final and binding.",
-        "No late submissions; follow the contest timeline strictly.",
-      ],
+"Round 1: MCQs focused on C language and computer basics. Duration: 30 minutes.",  
+"Round 2: Three coding problems (Easy, Medium, and Hard levels). Only C language is allowed. Duration: 45 minutes.",  
+"Round 3: One coding problem. Only C language is allowed. Duration: 30 minutes.",  
+"General Rules:",  
+"Participation is only allowed in teams of exactly 2 members.",  
+"Participants must solve all the questions in C language only. No other languages are allowed.",  
+"All code must be written and submitted directly on the contest platform.",  
+"Plagiarism or sharing solutions will lead to immediate disqualification.",  
+"Judge decisions are final and binding.",  
+"No late submissions; follow the contest timeline strictly."
+        ],
       painPoints: [
         "Ensuring stable internet connections and consistent power supply.",
         "Managing transitions smoothly between different rounds on time.",
