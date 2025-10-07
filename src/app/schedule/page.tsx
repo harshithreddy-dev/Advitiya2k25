@@ -19,7 +19,7 @@ const EventSchedule: React.FC = () => {
 
   const events = [
     {
-      day: "25-01-2025",
+      day: "14-10-2025",
       events: [
         {
           title: "Workshop",
@@ -37,7 +37,7 @@ const EventSchedule: React.FC = () => {
       ],
     },
     {
-      day: "27-01-2025",
+      day: "15-10-2025",
       events: [
         {
           title: "Inauguration",
@@ -88,132 +88,9 @@ const EventSchedule: React.FC = () => {
           facultyOrganizers: ["Prof. Dance"],
           details:
             "A lively and energetic performance to entertain the audience.",
-        },
-        // {
-        //   title: "1st Year Coding Contest",
-        //   time: "1:00 PM - 3:00 PM",
-        //   studentOrganizers: ["W.Pranay Kumar Reddy", "M.Sai Lakshmi"],
-        //   facultyOrganizers: ["Penchal Prasad", "YP Srinath Reddy"],
-        //   details: "Coding contest exclusively for 1st-year students.",
-        // },
-        // {
-        //   title: "2nd Year Coding Contest",
-        //   time: "2:00 PM - 4:00 PM",
-        //   studentOrganizers: ["W.Pranay Kumar Reddy", "M.Sai Lakshmi"],
-        //   facultyOrganizers: ["Penchal Prasad", "YP Srinath Reddy"],
-        //   details: "Coding contest exclusively for 2nd-year students.",
-        // },
+        }, 
       ],
     },
-    {
-      day: "28-01-2025",
-      events: [
-          {
-          title: "Treasure Hunt",
-          time: "9:00 AM - 12:00 PM",
-          studentOrganizers: ["Adventure Team"],
-          facultyOrganizers: ["Dr. Hunt"],
-          details: "Solve riddles and find hidden treasures across the campus.",
-        },
-          {
-          title: "Singing Competition & Dancing Competition",
-          time: "10:00 AM - 11:30 AM",
-          studentOrganizers: ["Music Club"],
-          facultyOrganizers: ["Prof. Melody"],
-          details: "Showcase your singing talent in this competition.",
-        },
-         {
-          title: "Online Games",
-          time: "10:00 AM - 12:00 PM",
-          studentOrganizers: ["Gaming Club"],
-          facultyOrganizers: ["Dr. Play"],
-          details: "Participate in exciting online gaming challenges.",
-        },
-         {
-          title: "Prize Distribution and Heritage Walk",
-          time: "02:00 PM - 5:00 PM",
-          studentOrganizers: ["Event Team"],
-          facultyOrganizers: ["Dr. Heritage"],
-          details: "Celebrate the winners and explore the campus heritage.",
-        },
-        // {
-        //   title: "Poster Presentation",
-        //   time: "9:00 AM - 11:00 AM",
-        //   studentOrganizers: ["Design Team"],
-        //   facultyOrganizers: ["Dr. Art", "Prof. Design"],
-        //   details: "Participants present innovative poster designs.",
-        // },
-        // {
-        //   title: "Technical Quiz",
-        //   time: "12:00 PM - 2:00 PM",
-        //   studentOrganizers: ["Quiz Masters"],
-        //   facultyOrganizers: ["Dr. Knowledge"],
-        //   details: "Test your technical knowledge in this quiz competition.",
-        // },
-        // {
-        //   title: "Web Development Contest",
-        //   time: "10:00 AM - 12:00 PM",
-        //   studentOrganizers: ["Web Dev Team"],
-        //   facultyOrganizers: ["Prof. Web"],
-        //   details: "Create a functional and innovative web application.",
-        // },
-        // {
-        //   title: "Paper Presentation",
-        //   time: "11:00 AM - 2:00 PM",
-        //   studentOrganizers: ["Research Team"],
-        //   facultyOrganizers: ["Dr. Scholar"],
-        //   details: "Participants showcase their research and ideas.",
-        // },
-        // {
-        //   title: "Flashmob",
-        //   time: "3:00 PM - 5:00 PM",
-        //   studentOrganizers: ["Cultural Team"],
-        //   facultyOrganizers: ["Prof. Dance"],
-        //   details:
-        //     "A lively and energetic performance to entertain the audience.",
-        // },
-      ],
-    },
-    // {
-    //   day: "29-01-2025 ",
-    //   events: [
-    //     // {
-    //     //   title: "Treasure Hunt",
-    //     //   time: "9:00 AM - 12:00 PM",
-    //     //   studentOrganizers: ["Adventure Team"],
-    //     //   facultyOrganizers: ["Dr. Hunt"],
-    //     //   details: "Solve riddles and find hidden treasures across the campus.",
-    //     // },
-    //     // {
-    //     //   title: "Singing Competition",
-    //     //   time: "10:00 AM - 11:00 AM",
-    //     //   studentOrganizers: ["Music Club"],
-    //     //   facultyOrganizers: ["Prof. Melody"],
-    //     //   details: "Showcase your singing talent in this competition.",
-    //     // },
-    //     {
-    //       title: "Online Games",
-    //       time: "10:00 AM - 12:00 PM",
-    //       studentOrganizers: ["Gaming Club"],
-    //       facultyOrganizers: ["Dr. Play"],
-    //       details: "Participate in exciting online gaming challenges.",
-    //     },
-    //     {
-    //       title: "Offline Games",
-    //       time: "10:00 AM - 12:00 PM",
-    //       studentOrganizers: ["Sports Committee"],
-    //       facultyOrganizers: ["Prof. Sports"],
-    //       details: "Engage in fun offline games and activities.",
-    //     },
-    //     {
-    //       title: "Prize Distribution and Heritage Walk",
-    //       time: "3:00 PM - 5:00 PM",
-    //       studentOrganizers: ["Event Team"],
-    //       facultyOrganizers: ["Dr. Heritage"],
-    //       details: "Celebrate the winners and explore the campus heritage.",
-    //     },
-    //   ],
-    // },
   ];
 
   return (

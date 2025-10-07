@@ -41,9 +41,9 @@ export default function SpotlightPreview() {
           <span className="text-yellow-300 font-semibold">
             coding challenges
           </span>
-          , <span className="text-pink-300 font-semibold">hackathons</span>,{" "}
-          <span className="text-blue-300 font-semibold">workshops</span>, and{" "}
-          <span className="text-red-300 font-semibold">seminars</span>. Join us
+          , <span className="text-pink-300 font-semibold">Poster Presentations</span>,{" "}
+          <span className="text-blue-300 font-semibold">Paper Presentations</span>, and{" "}
+          <span className="text-red-300 font-semibold">Web Development</span>. Join us
           to learn and showcase your skills in an immersive and vibrant
           environment.
         </p>
@@ -59,7 +59,7 @@ export default function SpotlightPreview() {
           <p className="text-sm sm:text-base md:text-lg text-gray-300 font-medium mb-1">
             Registration ends on{" "}
             <span className="text-yellow-300 font-semibold">
-              January 25th at 12 PM
+              October 13th at 6 PM
             </span>
           </p>
 
@@ -78,7 +78,7 @@ export default function SpotlightPreview() {
         <h3 className="text-lg sm:text-xl md:text-2xl text-pink-400 font-semibold mb-4">
           Event Countdown
         </h3>
-        <CountdownTimer targetDate="2025-01-25T00:00:00" />
+        <CountdownTimer targetDate="2025-10-15T00:00:00" />
       </div>
     </div>
   );
