@@ -41,54 +41,47 @@ const EventSchedule: React.FC = () => {
       events: [
         {
           title: "Inauguration",
-          time: "9:00 AM - 11:30 AM",
+          time: "9:00 AM - 10:30 AM",
           studentOrganizers: ["Event Team"],
           facultyOrganizers: ["Dr. Johnson"],
           details: "Official opening ceremony with keynote speakers.",
         },
         {
-          title: "1st,2nd and 3rd Years Coding Contest",
-          time: "09:15 AM - 12:00 PM",
+          title: "Poster Presentation ",
+          time: "11:00 AM - 01:00 PM",
           studentOrganizers: ["W.Pranay Kumar Reddy", "M.Sai Lakshmi"],
           facultyOrganizers: ["Penchal Prasad", "YP Srinath Reddy"],
-          details: "Coding contest exclusively for 3rd-year students.",
-        },
-         {
-          title: "Poster Presentation",
-          time: "11:00 AM - 02:00 PM",
-          studentOrganizers: ["Design Team"],
-          facultyOrganizers: ["Dr. Art", "Prof. Design"],
-          details: "Participants present innovative poster designs.",
+          details: "Poster Presentations exclusively for all year students.",
         },
          {
           title: "Paper Presentation",
-          time: "11:00 AM - 2:00 PM",
+          time: "11:00 AM - 01:00 PM",
+          studentOrganizers: ["Design Team"],
+          facultyOrganizers: ["Dr. Art", "Prof. Design"],
+          details: "Participants present innovative Paper Presentations.",
+        },
+         {
+          title: "Web Development Contest",
+          time: "11:00 AM - 01:00 PM",
           studentOrganizers: ["Research Team"],
           facultyOrganizers: ["Dr. Scholar"],
-          details: "Participants showcase their research and ideas.",
+          details: "Create a functional and innovative web application.",
         },
         {
-          title: "Web Development Contest",
-          time: "11:00 AM - 12:00 PM",
+          title: "Graphic Design Contest",
+          time: "11:00 AM - 01:00 PM",
           studentOrganizers: ["Web Dev Team"],
           facultyOrganizers: ["Prof. Web"],
-          details: "Create a functional and innovative web application.",
+          details: "Replicate the provided Design.",
         },
          {
           title: "Technical Quiz",
-          time: "12:00 PM - 03:00 PM",
+          time: "1:00 PM - 03:30 PM",
           studentOrganizers: ["Quiz Masters"],
           facultyOrganizers: ["Dr. Knowledge"],
           details: "Test your technical knowledge in this quiz competition.",
         },
-        {
-          title: "Flashmob",
-          time: "3:30 PM - 5:00 PM",
-          studentOrganizers: ["Cultural Team"],
-          facultyOrganizers: ["Prof. Dance"],
-          details:
-            "A lively and energetic performance to entertain the audience.",
-        }, 
+      
       ],
     },
   ];
@@ -187,7 +180,7 @@ const EventSchedule: React.FC = () => {
                       {eventItem.details}
                     </Typography>
                     {/* <Typography
-                      sx={{
+                      sx={{ 
                         fontSize: { xs: "0.85rem", md: "0.95rem" },
                         color: "#90caf9",
                         marginTop: "8px",
