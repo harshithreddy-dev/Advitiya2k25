@@ -4,108 +4,81 @@ import { motion } from "framer-motion";
 export default function EventsSectionDemo() {
   const technicalEvents = {
     CodingContest: {
-      title: "Code Verse",
+      title: "AInspire",
       facultyCoordinators: [
         {
-          name: "P. Penchal Prasad",
-          contact: "+91 90305 51881",
-        },
-        {
-          name: "Y. P. Srinath Reddy",
-          contact: "+91 99492 82667",
+          name: "M Suleman Basha",
+          contact: "+91 9177014186",
         },
       ],
       studentCoordinators: [
         {
-          name: "W. Pranay Kumar Reddy",
-          rollNo: "22095A3204",
-          contact: "+91 79895 88283",
+          name: "Praveen",
+          rollNo: "23095A3213",
+          contact: "+91 9949437203",
         },
         {
-          name: "M. Sai Lakshmi Reddy",
-          rollNo: "21091A3237",
-          contact: "+91 93466 53295",
+          name: "B. Sai Sreeker Reddy",
+          rollNo: "21091A32C0",
+          contact: "+91 7013401659",
         },
       ],
-      teamMembers: [
-        "P. Chaitanya",
-        "G. Lohitha",
-        "Navya",
-        "Sunitha",
-        "Sudharshan",
-        "Siva Bhavani",
-        "Sethu",
-      ],
       description:
-        "Showcase your coding skills in a high-stakes, competitive environment designed to challenge the best minds.",
+        "Step into the realm of smart innovation — where intelligence is built, automated, and engineered to think beyond human limits.",
       rules: [
-"Round 1: MCQs focused on C language and computer basics. Duration: 30 minutes.",  
-"Round 2: Three coding problems (Easy, Medium, and Hard levels). Only C language is allowed. Duration: 45 minutes.",  
-"Round 3: One coding problem. Only C language is allowed. Duration: 30 minutes.",  
-"General Rules:",  
-"Participation is only allowed in teams of exactly 2 members.",  
-"Participants must solve all the questions in C language only. No other languages are allowed.",  
-"All code must be written and submitted directly on the contest platform.",  
-"Plagiarism or sharing solutions will lead to immediate disqualification.",  
-"Judge decisions are final and binding.",  
-"No late submissions; follow the contest timeline strictly."
-        ],
+        "Individual event: design and implement AI automation workflows.",
+        "Conducted in 3 rounds of increasing difficulty.",
+        "Evaluated on accuracy, efficiency, and speed.",
+        "Each round features a specific automation scenario.",
+        "Use existing AI tools/platforms; coding from scratch is optional.",
+        "Winners shortlisted progressively based on performance and time.",
+        "Prizes for winners and runners-up.",
+        "E-certificates for all participants.",
+      ],
       painPoints: [
         "Ensuring stable internet connections and consistent power supply.",
         "Managing transitions smoothly between different rounds on time.",
         "Providing timely support for participant queries during the contest.",
         "Handling unforeseen technical or logistical challenges with a backup plan.",
       ],
-      cost: "₹400 per team",
+      cost: "₹200 per participant",
       icon: "IconEaseInOut",
-      registerLink: "https://forms.gle/3ResqKSz9x8aCFW26",
+      registerLink: "https://docs.google.com/forms/d/e/1FAIpQLSc8VRdPEKoExlfhgQPz-HZ5PFAD9-4Dra0WGxnix-uLZcHP2g/viewform?usp=header",
     },
 
     TechnicalQuiz: {
-      title: "TechTussle",
+      title: "Quizion",
       facultyCoordinators: [
-        { name: "Dr. K. Rangaswamy", contact: "+91 79891 05881" },
-        { name: "Mr. S. Md. Shakeer", contact: "+91 91770 14186" },
+        { name: "A.Annapurna", contact: "+91 79891 05881" },
       ],
       studentCoordinators: [
         {
-          name: "K. Vishnu Vardhan Reddy",
-          rollNo: "21091A3264",
-          contact: "+91 95158 92932",
+          name: "M Neha",
+          rollNo: "22091A3295",
+          contact: "+91 9030406806",
         },
         {
-          name: "G. Lohitha Reddy",
-          rollNo: "21091A3219",
-          contact: "+91 62816 45501",
+          name: "G.Pradeep Reddy",
+          rollNo: "22091A32A1",
+          contact: "+91 9640309744",
         },
-      ],
-      teamMembers: [
-        "A. Mounika",
-        "Prasanna",
-        "Manisha",
-        "Supriya",
-        "Kiran",
-        "Amarnath",
-        "Surya",
       ],
       description:
         "Participate in an engaging and competitive technical quiz event as part of ADVITIYA 2K25 at Rajeev Gandhi Memorial College of Engineering & Technology. Showcase your knowledge and quick thinking to emerge victorious.",
       rules: [
-        "Round 1: 24 teams participate. Each team will be asked 3 questions.",
-        "Correct answer to own question: 10 points.",
-        "Correct answer to passed question: 5 points.",
-        "Top 12 teams will qualify for 2nd round; 12 teams will be eliminated.",
-        "Round 2: 12 teams will compete. Same scoring system as Round 1.",
-        "Top 6 teams will qualify; 6 teams will be eliminated.",
-        "Round 3: 6 teams will compete. Same scoring system applies.",
-        "Top 3 teams will qualify; 3 teams will be eliminated.",
-        "Final Round: 3 teams will compete. Teams must answer within a fixed time limit.",
-        "Highest scoring team will be awarded with the 1st prize; the second highest scoring team will be awarded with 2nd prize.",
+        "Individual registration; teams formed on-site.",
+        "Quiz covers: CS fundamentals, programming (C/C++/Java/Python), emerging tech (AI, IoT, Blockchain, Cloud), IT awareness, logical reasoning.",
+        "Rounds: Preliminary (MCQs) → Final (live quiz, buzzer/rapid-fire).",
+        "Maintain discipline and fairness; no phones or gadgets allowed.",
+        "Quiz master's decision is final.",
+        "Event held offline at designated venue.",
+        "Prizes for winners and runners-up.",
+        "E-certificates for all participants.",
       ],
-      cost: "₹100 per participant",
+      cost: "₹150 per participant",
       teamSize: "Based upon registrations",
       icon: "IconLightbulb",
-      registerLink: "https://forms.gle/RptBRuHm1hzr2rgN6",
+      registerLink: "https://docs.google.com/forms/d/e/1FAIpQLSf0_xxbmwPE7lSYVZb5OGIHeEblpJCERqvmpp99fYQ2k3ImhQ/viewform?usp=header",
       painPoints: [
         "Time Pressure: In the final round, teams must not only answer correctly but also quickly to score higher.",
         "Time Management: Teams must focus on balancing speed and accuracy throughout the competition.",
@@ -114,60 +87,36 @@ export default function EventsSectionDemo() {
       ],
     },
     Workshop: {
-      title: "TechCraft",
+      title: "Graphinity",
       facultyCoordinators: [
-        { name: "Mr. G. Vikram Chandra", contact: "+91 98859 96934" },
+        { name: "M Suleman Basha",
+          contact: "+91 9177014186" },
       ],
       studentCoordinators: [
         {
-          name: "J. Vamsi Charan",
-          rollNo: "21091A3261",
-          contact: "+91 99080 89699",
-        },
-        {
-          name: "D. Sunitha",
-          rollNo: "21091A3253",
-          contact: "+91 91779 35741",
-        },
-        {
-          name: "K. Naga Harshitha",
-          rollNo: "21091A3228",
-          contact: "+91 93928 69328",
-        },
-        {
-          name: "G. Vara Prasad",
-          rollNo: "22095A3205",
-          contact: "+91 83670 54233",
-        },
-        {
-          name: "D. Sreevani",
-          rollNo: "21091A3250",
-          contact: "+91 70132 90398",
-        },
+          name: "A.Kevin",
+          rollNo: "22091A3260",
+          contact: "+91 7036339609",
+        }
       ],
-      teamMembers: [
-        "Vamsi",
-        "Sunitha",
-        "Naga Harshitha",
-        "Vara Prasad",
-        "Sreevani",
+      description: "Unleash your creativity in this digital design competition! Create stunning original designs based on given themes using your favorite graphic design tools.",
+      rules: [
+        "Individual event; no teams.",
+        "Create original digital designs based on a given theme.",
+        "Any graphic software allowed (Photoshop, Illustrator, Canva, Figma, CorelDRAW, etc.).",
+        "Focus on creativity, visual appeal, and thematic relevance.",
+        "Submit final design in PNG, JPEG, or PDF.",
+        "May have multiple rounds: concept/quick sketch → final design.",
+        "Judged on originality, aesthetics, theme relevance, color/typography, overall impact.",
+        "Complete tasks within allotted time.",
+        "Prizes for winners and runners-up.",
+        "E-certificates for all participants.",
       ],
-      description:"Welcome to our workshop! Explore four domains, master technologies, gain insights, and unlock career opportunities with industry experts. Your journey starts now!",
-       rules: [
-      "Participants must arrive at the venue at least 15 minutes before the scheduled start time.",
-      "Mobile phones must be kept on silent mode during the sessions.",
-      "Participants must attend the entire workshop to receive a certificate of participation.",
-      "Treat facilitators, organizers, and fellow participants with respect and courtesy.",
-      "Any provided resources (e.g., laptops, tools, software) must be handled with care.",
-      "Follow all instructions provided by the workshop coordinators and facilitators.",
-      "Refrain from engaging in unrelated activities during the workshop.",
-      "Students must bring their laptops; required software will be mentioned in the Google Form.",
-    ],
 
-      cost: "₹250 per participant",
+      cost: "₹200 per participant",
       teamSize: "Individual",
       icon: "IconHammer",
-      registerLink: "https://forms.gle/6kJxhr4gVuWoq3Bj6",
+      registerLink: "https://docs.google.com/forms/d/e/1FAIpQLSf0-KV_yNLQ5mExeolqvYvg-wNlBPz7V9XHN5NEbQYPqd_QYg/viewform?usp=header",
       painPoints: [
         "Technical Issues: Problems with projectors, internet connectivity, or software can disrupt the flow.",
         "Time Overruns: Poor time management can lead to skipping key sections.",
@@ -180,12 +129,8 @@ export default function EventsSectionDemo() {
       ],
     },
     PaperPresentation: {
-      title: "Paperlogue",
+      title: "Papervate",
       facultyCoordinators: [
-        {
-          name: "Dr. M. Suleman Basha",
-          contact: "+91 91770 14186",
-        },
         {
           name: "Dr. M. SriRaghavendra",
           contact: "+91 90523 87499",
@@ -193,60 +138,55 @@ export default function EventsSectionDemo() {
       ],
       studentCoordinators: [
         {
-          name: "C. Dwarka Sandeep",
-          rollNo: "21091A3212",
-          contact: "+91 78424 93040",
-        },
-        {
-          name: "B. Bhavana",
-          rollNo: "21091A3209",
-          contact: "+91 86391 40540",
+          name: "S.Arshiya Praveen",
+          rollNo: "22091A3210",
+          contact: "+91 7995336522",
         },
       ],
-      teamMembers: ["Dhanush", "Hemanth", "Thanusree", "Deekshitha", "Athika"],
       description:
         "Showcase your research and analytical skills through a compelling presentation designed to communicate ideas effectively.",
       rules: [
-        "Time Limit: Presentation: 6 minutes maximum, Q&A Session: 3 minutes after each presentation.",
-        "Paper Rules: Must be an IEEE format paper submitted before the event commences.",
-        "Presentation Skills: Speak clearly and confidently. Maintain eye contact with the audience. Use gestures to emphasize points.",
-        "Professionalism: Dress appropriately for the presentation. Respect the time of others and adhere to the schedule.",
+        "The paper must be formatted in IEEE style.",
+        "After selecting your paper, you must share it with us at ripplecseds2k25@gmail.com.",
+        "The submission deadline is 11th October 2025, before 6:00 PM.",
+        "Once your paper is Evaluated, you will receive a WhatsApp DM on the number you provided, on or before 13th October 2025, by 6:00 PM.",
+        "Exciting prizes await the winners and runners-up.",
+        "The presentation time will be 8–10 minutes, followed by a 2-minute Q&A session.",
+        "Participants must bring a soft copy (PDF) and a presentation (PPT) of their paper on the day of the event.",
+        "Evaluation will be based on innovation, technical depth, content delivery and communication skills and how good you answer for the Q&A.",
+        "Certificates will be provided to all participants.",
       ],
-      cost: "₹150 per participant",
+      cost: "₹300 per participant",
       icon: "IconDocumentText",
-      registerLink: "https://forms.gle/hTpwEcZr1i6v3Qfp8",
+      registerLink: "https://docs.google.com/forms/d/e/1FAIpQLSc2AUpy12femVo8YkK91-jTqpgxK9Q7QX3v0W-uZ3ePwuQunw/viewform?usp=header",
     },
     PosterPresentation: {
-      title: "Postora",
+      title: "Posterium",
       facultyCoordinators: [
-        { name: "Dr. M. Suleman Basha", contact: "+91 91770 14186" },
-        { name: "Dr. M. Jahir Pasha", contact: "+91 99496 25263" },
+        { name: "K.Rathi", contact: "+91 91770 14186" },
       ],
       studentCoordinators: [
         {
-          name: "K. Sai Siva Rama Krishna",
-          rollNo: "21091A3239",
+          name: "C. Anjali",
+          rollNo: "22091A3207 ",
           contact: "+91 99498 28846",
         },
-        {
-          name: "S. Harshitha",
-          rollNo: "21091A3214",
-          contact: "+91 77802 40189",
-        },
       ],
-      teamMembers: ["Mabasha", "Suresh", "Anitha", "Kavya", "Jyothi", "Tanuja"],
       description:
         "Participate in a poster presentation event at Rajeev Gandhi Memorial College of Engineering & Technology, blending creativity and knowledge to communicate innovative ideas effectively.",
       rules: [
-        "Time Limit: Presentation: 6 minutes maximum, Q&A Session: 3 minutes after each presentation.",
-        "Poster Design: Must be clear, visually appealing, and include key points. Use graphs, images, and charts where applicable to enhance understanding.",
-        "Presentation Skills: Speak clearly and confidently. Maintain eye contact with the audience. Use gestures to emphasize points.",
-        "Professionalism: Dress appropriately for the presentation. Respect the time of others and adhere to the schedule.",
+        "Clearly showcase concept, problem, methodology, and outcome.",
+        "Individual event only; no teams.",
+        "Preferred size: A1 (594×841 mm) or A2 (420×594 mm).",
+        "Original work only; plagiarism leads to disqualification.",
+        "Presentation: 5–7 minutes + short Q&A.",
+        "Prizes for winners and runners-up.",
+        "E-Certificates for all participants.",
       ],
-      cost: "₹150 per participant",
-      teamSize: "1-2 members",
+      cost: "₹200 per participant",
+      teamSize: "Individual",
       icon: "IconImage",
-      registerLink: "https://forms.gle/Pwr3DxiM2GWEH9Cj9",
+      registerLink: "https://docs.google.com/forms/d/e/1FAIpQLSePvu015T4z3exUMz5_TcqtyH5gcd2LADQqKHEsd0yNv9SytQ/viewform?usp=header",
       painPoints: [
         "Network issues",
         "HDMI cable management",
@@ -254,75 +194,36 @@ export default function EventsSectionDemo() {
       ],
     },
     WebDevelopment: {
-      title: "WebForge",
+      title: "DevNest",
       facultyCoordinators: [
-        { name: "M. Suleman Basha", contact: "+91 91770 14187" },
-        { name: "S. Khaleel", contact: "+91 80966 74404" },
+        { name: "P.V.Prashanna Kumari", contact: "+91 91770 14187" },
       ],
       studentCoordinators: [
         {
-          name: "C. Vivekanandha Reddy",
-          rollNo: "22095A3206",
-          contact: "+91 63049 65782",
-        },
-        {
-          name: "A. Sai Deekshitha",
-          rollNo: "21091A3233",
-          contact: "+91 94403 88230",
-        },
+          name: "T.V. Sanith Kumar Reddy",
+          rollNo: "22095A32G4",
+          contact: "+91 6302376911 ",
+        }
       ],
       teamMembers: ["Tirumalesu", "Bhargavi", "Dharani"],
       description:
-        "Build a responsive and dynamic website that functions seamlessly across different devices, showcasing your web development skills.",
+        "Create a beautiful static website using HTML & CSS only. Showcase your design skills and creativity in this individual web development challenge.",
       rules: [
-        "Each team must consist of 2 members.",
-        "50 teams in Round 1; top 20 advance to Round 2.",
-        "Use only provided resources (VS Code). External devices prohibited.",
-        "Malpractice or plagiarism leads to disqualification.",
-        "Round 1: Create a static website using HTML & CSS in 20 minutes. Top 20 teams qualify.",
-        "Round 2: Create a dynamic website using HTML, CSS, & JavaScript in 30 minutes. Top 6 teams qualify.",
-        "Final Round: Top 6 teams present their projects. Judges' questions determine winners.",
+        "Individual event only.",
+        "Build a static website using HTML & CSS only; no JS or frameworks.",
+        "Minimum 2 pages (e.g., Home, About, Contact).",
+        "Focus on creativity, layout, consistency, and usability.",
+        "Ensure responsive design, alignment, and clean code.",
+        "Content can be thematic or conceptual (social, educational, or tech).",
+        "Be ready to explain your code and design to judges.",
+        "Prizes for winners and runners-up.",
+        "E-certificates for all participants.",
       ],
-      eventFormat: [
-        {
-          round: "First Round: Static Website Development",
-          details: [
-            "Teams must create a static website using HTML and CSS only.",
-            "The time limit is 20 minutes.",
-            "Evaluation will be based on the visual appeal and layout of the website.",
-            "This is an elimination round, and only the top 20 teams will proceed to the next round.",
-          ],
-        },
-        {
-          round: "Second Round: Dynamic Website Development",
-          details: [
-            "Selected teams must create a dynamic website using HTML, CSS, and JavaScript.",
-            "The time limit is 30 minutes.",
-            "The top 6 teams will be selected based on the judging criteria.",
-          ],
-        },
-        {
-          round: "Final Evaluation",
-          details: [
-            "The top 6 teams will present their projects to the judges.",
-            "Judges will ask technical questions related to the project, and the answers will determine the top 3 winners.",
-          ],
-        },
-      ],
-      judgingCriteria: {
-        innovationAndCreativity:
-          "30% - The uniqueness and originality of the idea.",
-        functionality:
-          "30% - The performance and functionality of the website.",
-        designAndUserInterface:
-          "20% - The aesthetic appeal and user-friendliness of the website.",
-        technicalImplementation:
-          "20% - The use of coding practices and appropriate technologies.",
-      },
-      cost: "₹300 per team",
-      teamSize: "2 members per team",
+
+      cost: "₹250 per participant",
+      teamSize: "Individual",
       icon: "IconDesktop",
-      registerLink: "https://forms.gle/uthc15RC4RkGMN5F6",
+      registerLink: "https://docs.google.com/forms/d/e/1FAIpQLScBj11Y62JhLoHPaSwNugvyRA7121Mf1Eu7hEXDkACCIpzt5g/viewform?usp=header",
       painPoints: [
         "Time Constraints",
         "Technical Issues",
@@ -338,463 +239,7 @@ export default function EventsSectionDemo() {
     },
   };
 
-  const nonTechnicalEvents = [
-    {
-      title: "Questoria",
-      description:
-        "A fun and challenging scavenger hunt where participants will need to solve clues and find hidden items across the campus.",
-      rules: [
-        "Respect the Environment: Do not damage property or litter while searching for clues.",
-        "Safety First: Stay within the designated areas; no running or dangerous behaviour.",
-        "Fair Play: Teams must work independently without disrupting other team's progress.",
-        "Obey Event Coordinators: Follow instructions from game facilitators at all times.",
-      ],
-      FacultyCoordinators: [
-        { Name: "Dr. P Kiran Rao", Contact: "+91 XXX XXXXX" },
-        { Name: "K. Rathi", Contact: "+91 81796 94419" },
-      ],
-      StudentCoordinators: [
-        { Name: "K. Balaji", RollNo: "21091A3207", Contact: "+91 99633 76522" },
-        {
-          Name: "B. Mounika",
-          RollNo: "21091A3227",
-          Contact: "+91 76600 74077",
-        },
-        {
-          Name: "K. Manisha",
-          RollNo: "21091A3222",
-          Contact: "+91 99661 30643",
-        },
-      ],
-      TeamMembers: [
-        "Asad",
-        "G. Prasad",
-        "Hari Charan",
-        "Shiva Reddy",
-        "Thanusree",
-        "Jyothi",
-        "Naga Harshitha",
-        "Satish",
-        "Shashank",
-        "Pradeep",
-        "Rahul",
-      ],
-      cost: "₹600 per team",
-      teamSize: "3 to 5 members",
-      eventDuration: "9:30 AM to 1:00 PM",
-      location: "Campus-wide (Specific areas marked for clues)",
-      eventFormat: [
-        "Kick-off and briefing: All participants receive the first clue and instructions.",
-        "Clue-solving and progression: Teams solve clues and navigate to different areas.",
-        "Final stage: The first team to reach the final treasure wins.",
-        "Award Ceremony: Winners are announced, and prizes are distributed.",
-      ],
-      registerLink: "https://forms.gle/UKAd6S9c6YqZmyix8",
 
-      painPoints: [
-        "Clue Complexity: Clues that are too hard or too easy may affect the game's flow.",
-        "Time Management: Insufficient time for certain clues may lead to frustration.",
-        "Team Dynamics: Imbalance in skills or teamwork can hinder progress.",
-        "Rule Violations: Players ignoring the rules may disrupt the integrity of the hunt.",
-        "Safety Concerns: Inadequate supervision or unsafe areas can cause issues.",
-      ],
-    },
-    {
-      title: "CamPeaks (Cam Clash)",
-      description:
-        "Capture the best moments of the event with your camera and showcase your photography skills in this competition.",
-      rules: [
-        "Submissions must be original, created specifically for this event, and must not be copied from the web.",
-        "Previously used or old photographs/videos are not allowed.",
-        "Video duration should be between 2 to 5 minutes.",
-        "Videos must align with the provided theme.",
-        "All entries must be submitted before the specified deadline.",
-        "Ensure submissions adhere to the specified theme and rules.",
-        "Any copied or previously used content will lead to disqualification.",
-        "Respect deadlines to ensure eligibility.",
-      ],
-      FacultyCoordinators: [
-        { Name: "G. Viswanath", Contact: "+91 98859 72096" },
-        { Name: "S. Khaleel", Contact: "+91 80966 74404" },
-      ],
-      StudentCoordinators: [
-        {
-          Name: "K. Mohan Krishna",
-          RollNo: "22095A3202",
-          Contact: "+91 79817 88409",
-        },
-        {
-          Name: "S. Sreeram",
-          RollNo: "21091A3249",
-          Contact: "+91 96768 46111",
-        },
-        {
-          Name: "A. Mounika",
-          RollNo: "21091A3226",
-          Contact: "+91 81212 27225",
-        },
-        {
-          Name: "J. P. Samantha",
-          RollNo: "21091A3240",
-          Contact: "+91 91105 29914",
-        },
-      ],
-      cost: "₹100 per participant & 200 per team",
-      registerLink: "https://forms.gle/Mqc85vnCTrz9q2WLA",
-      TeamMembers: [
-        "K. Mohan Krishna",
-        "S. Sreeram",
-        "A. Mounika",
-        "J. P. Samantha",
-      ],
-    },
-    {
-      title: "CamPeaks (Photography)",
-      description:
-        "Capture the best moments of the event with your camera and showcase your photography skills in this competition.",
-      rules: [
-        "Submissions must be original, created specifically for this event, and must not be copied from the web.",
-        "Previously used or old photographs/videos are not allowed.",
-        "Each participant can submit only one photograph.",
-        "Submissions must include a short description.",
-        "All entries must be submitted before the specified deadline.",
-        "Ensure submissions adhere to the specified theme and rules.",
-        "Any copied or previously used content will lead to disqualification.",
-        "Respect deadlines to ensure eligibility.",
-      ],
-      FacultyCoordinators: [
-        { Name: "G. Viswanath", Contact: "+91 98859 72096" },
-        { Name: "S. Khaleel", Contact: "+91 80966 74404" },
-      ],
-      StudentCoordinators: [
-        {
-          Name: "K. Mohan Krishna",
-          RollNo: "22095A3202",
-          Contact: "+91 79817 88409",
-        },
-        {
-          Name: "S. Sreeram",
-          RollNo: "21091A3249",
-          Contact: "+91 96768 46111",
-        },
-        {
-          Name: "A. Mounika",
-          RollNo: "21091A3226",
-          Contact: "+91 81212 27225",
-        },
-        {
-          Name: "J. P. Samantha",
-          RollNo: "21091A3240",
-          Contact: "+91 91105 29914",
-        },
-      ],
-      cost: "₹50 per participant",
-      registerLink: "https://forms.gle/5Nt9YtGK73eGXjA99",
-      TeamMembers: [
-        "K. Mohan Krishna",
-        "S. Sreeram",
-        "A. Mounika",
-        "J. P. Samantha",
-      ],
-    },
-
-    {
-      title: "E- Arena (BGMI)",
-      description:
-        "Participate in competitive online games, showcasing your strategic thinking and quick reflexes.",
-      FacultyCoordinators: [
-        { Name: "Y. P. Srinath Reddy", Contact: "+91 99492 82667" },
-        { Name: "G. Vikram Chandra", Contact: "+91 98859 96934" },
-      ],
-      StudentCoordinators: [
-        {
-          Name: "P. Hima Chaitanya",
-          RollNo: "21091A3266",
-          Contact: "+91 81868 11109",
-        },
-        {
-          Name: "P. Sandeep",
-          RollNo: "21091A3241",
-          Contact: "+91 83745 37996",
-        },
-      ],
-      rules: [
-        "One Erangel Match will be conducted.",
-        "The top squad from the match will win the prize.",
-        "In case of a tie, TDM will be conducted.",
-        "Ensure fair play and respect for all participants.",
-        "Teams must adhere to the event schedule.",
-      ],
-      cost: "₹50 per head & ₹200 per team",
-      registerLink: "https://forms.gle/6d8apZHpDBMKNUQ86",
-      TeamMembers: ["Afrid", "Rushi", "Omkar", "Khaleel"],
-    },
-    {
-      title: "E- Arena (Freefire)",
-      description:
-        "Participate in competitive online games, showcasing your strategic thinking and quick reflexes.",
-      FacultyCoordinators: [
-        { Name: "Y. P. Srinath Reddy", Contact: "+91 99492 82667" },
-        { Name: "G. Vikram Chandra", Contact: "+91 98859 96934" },
-      ],
-      StudentCoordinators: [
-        {
-          Name: "P. Hima Chaitanya",
-          RollNo: "21091A3266",
-          Contact: "+91 81868 11109",
-        },
-        {
-          Name: "P. Sandeep",
-          RollNo: "21091A3241",
-          Contact: "+91 83745 37996",
-        },
-      ],
-      rules: [
-        "One Bermuda Match will be conducted.",
-        "The top squad from the match will win the prize.",
-        "In case of a tie, a Clash Squad match will be conducted.",
-        "Ensure fair play and respect for all participants.",
-        "Teams must adhere to the event schedule.",
-        "Players facing internet issues are expected to switch to their mobile data.",
-      ],
-      cost: "₹50 per head & ₹200 per team",
-      registerLink: "https://forms.gle/gRDXQJLFksrgbTBt5",
-      TeamMembers: ["Afrid", "Rushi", "Omkar", "Khaleel"],
-    },
-
-    {
-      title: "PlayZone (Chess)",
-      description:
-        "Compete in various offline games and activities, testing both mental and physical skills.",
-      rules: [
-        "Each round is an elimination round.",
-        "Every game is a knockout match.",
-        "All FIDE rules applicable.",
-      ],
-      eventFormat: "Each round is an elimination round",
-      painPoints: ["Carrom boards", "Chess boards"],
-      facultyCoordinators: [
-        { name: "Annapurna", contact: "+91 91822 21528" },
-        { name: "M Suleman Basha", contact: "+91 91770 14186" },
-        { name: "Penchal Prasad Sir", contact: "Not Provided" },
-      ],
-      studentCoordinators: [
-        {
-          name: "S. Abdul Gafoor",
-          rollNo: "21091A3201",
-          contact: "+91 95818 51301",
-        },
-        {
-          name: "K. Pream",
-          rollNo: "21091A3231",
-          contact: "+91 98851 12453",
-        },
-        {
-          name: "K. Thanuja",
-          rollNo: "21091A3258",
-          contact: "+91 96036 06025",
-        },
-        {
-          name: "S. Shreya Reddy",
-          rollNo: "21091A3245",
-          contact: "+91 77994 81411",
-        },
-      ],
-      registerLink: "https://forms.gle/tTTMV9XJubiPp2Bo8",
-      teamMembers: ["Gafoor", "Pream", "Tanuja", "Shreya"],
-      locationDetails: {
-        collegeName:
-          "Rajeev Gandhi Memorial College of Engineering & Technology",
-        autonomous: true,
-        address: "Nandyal-518501, Andhra Pradesh, India",
-        department:
-          "Department of Computer Science & Engineering (Data Science)",
-        eventName: "ADVITIYA 2K25",
-      },
-      activity: "Offline Games (Chess and Carroms)",
-      teamSize: {
-        chess: "Individual",
-        carroms: "2",
-      },
-      cost: "₹50 per head",
-    },
-    {
-      title: "PlayZone (Carroms)",
-      description:
-        "Compete in various offline games and activities, testing both mental and physical skills.",
-      rules: [
-        "Each round is an elimination round.",
-        "Every game is a knockout match.",
-        "White and black game.",
-      ],
-      eventFormat: "Each round is an elimination round",
-      painPoints: ["Carrom boards", "Chess boards"],
-      facultyCoordinators: [
-        { name: "Annapurna", contact: "+91 91822 21528" },
-        { name: "M Suleman Basha", contact: "+91 91770 14186" },
-        { name: "Penchal Prasad Sir", contact: "Not Provided" },
-      ],
-      studentCoordinators: [
-        {
-          name: "S. Abdul Gafoor",
-          rollNo: "21091A3201",
-          contact: "+91 95818 51301",
-        },
-        {
-          name: "K. Pream",
-          rollNo: "21091A3231",
-          contact: "+91 98851 12453",
-        },
-        {
-          name: "K. Thanuja",
-          rollNo: "21091A3258",
-          contact: "+91 96036 06025",
-        },
-        {
-          name: "S. Shreya Reddy",
-          rollNo: "21091A3245",
-          contact: "+91 77994 81411",
-        },
-      ],
-      teamMembers: ["Gafoor", "Pream", "Tanuja", "Shreya"],
-      locationDetails: {
-        collegeName:
-          "Rajeev Gandhi Memorial College of Engineering & Technology",
-        autonomous: true,
-        address: "Nandyal-518501, Andhra Pradesh, India",
-        department:
-          "Department of Computer Science & Engineering (Data Science)",
-        eventName: "ADVITIYA 2K25",
-      },
-      activity: "Offline Games (Chess and Carroms)",
-      teamSize: {
-        chess: "Individual",
-        carroms: "2",
-      },
-      registerLink: "https://forms.gle/gM9Y6KwU7KQJqMdk9",
-      cost: "₹50 per team",
-    },
-    {
-      title: "Melodify",
-      description:
-        "Show off your vocal skills in this singing competition and captivate the audience with your performance.",
-      rules: [
-        "They should finish their performance within the allotted time.",
-        "Any song theme based on their interest.",
-        "Everyone will be given a maximum of 5 minutes.",
-        "If they want background music, they should submit it before 1 week itself.",
-      ],
-      eventFormat: [
-        "Participants should finish their performance within the allotted time.",
-        "The song theme can be based on their interest.",
-      ],
-      painPoints: [
-        "Microphones and sound system",
-        "Network",
-        "Speakers and podium",
-      ],
-      facultyCoordinators: [
-        { name: "Mrs. K. Rathi", contact: "+91 81796 94419" },
-      ],
-      studentCoordinators: [
-        {
-          name: "J. Sai Navya",
-          rollNo: "21091A3238",
-          contact: "+91 93906 96602",
-        },
-        {
-          name: "P. Sudha Aruna",
-          rollNo: "21091A3251",
-          contact: "+91 89195 22328",
-        },
-      ],
-      teamMembers: ["Thanusree", "Jyothi", "Naga Harshitha"],
-      locationDetails: {
-        collegeName:
-          "Rajeev Gandhi Memorial College of Engineering & Technology",
-        autonomous: true,
-        address: "Nandyal-518501, Andhra Pradesh, India",
-        department:
-          "Department of Computer Science & Engineering (Data Science)",
-        eventName: "ADVITIYA 2K25",
-      },
-      registerLink: "https://forms.gle/49RisutNcZ1pF2Qe9",
-      activity: "Singing",
-      teamSize: "Individual, Duet, or Group (max 3)",
-      cost: "₹100 per head",
-    },
-    {
-      title: "Groove Battle",
-      description:
-        "Show off your dance skills in this competition and captivate the audience with your performance.",
-      rules: [
-        "They should finish their performance within the allotted time.",
-        "Any song theme based on their interest.",
-        "Everyone should reach the venue on time.",
-        "Maximum 5 minutes will be given.",
-        "The songs should be submitted before 3 days.",
-      ],
-      eventFormat: [
-        "Participants should finish their performance within the allotted time.",
-        "The song theme can be based on their interest.",
-      ],
-      painPoints: [
-        "Microphones and sound system",
-        "Network",
-        "Speakers and podium",
-      ],
-      facultyCoordinators: [
-        { name: "Mrs. K. Rathi", contact: "+91 81796 94419" },
-      ],
-      studentCoordinators: [
-        {
-          name: "J. Sai Navya",
-          rollNo: "21091A3238",
-          contact: "+91 93906 96602",
-        },
-        {
-          name: "P. Sudha Aruna",
-          rollNo: "21091A3251",
-          contact: "+91 89195 22328",
-        },
-      ],
-      teamMembers: ["Thanusree", "Jyothi", "Naga Harshitha"],
-      locationDetails: {
-        collegeName:
-          "Rajeev Gandhi Memorial College of Engineering & Technology",
-        autonomous: true,
-        address: "Nandyal-518501, Andhra Pradesh, India",
-        department:
-          "Department of Computer Science & Engineering (Data Science)",
-        eventName: "ADVITIYA 2K25",
-      },
-      registerLink: "https://forms.gle/2Stjn8bhr73LnPxo7",
-      activity: "Singing",
-      teamSize: "Individual, Duet, or Group (max 3)",
-      cost: "₹100 per head",
-    },
-    {
-      title: "Entreva",
-      description:
-        "Showcase your entrepreneurial skills by participating in various stalls and activities.",
-      Activity: "Entrepreneurship",
-      FacultyCoordinators: [{ Name: "Mr. B. Bhaskara Rao" }],
-      Heads: [
-        { Name: "V. Sravan Kumar", Contact: "+91 63097 92178" },
-        { Name: "K. Sai Deepika", Contact: "+91 97049 23588" },
-      ],
-      StallTypes: ["Food stalls", "Challenges and Games", "Crafts stalls"],
-      rules: [
-        "All stall owners must adhere to the event schedule.",
-        "Stalls should be set up 30 minutes prior to the event start time.",
-        "Ensure cleanliness and proper waste management at your stall.",
-        "Participants are encouraged to promote their stalls creatively.",
-        "Respect for all visitors and fellow stall owners is mandatory.",
-        "Stall types include: Food stalls, Challenges and Games, Crafts stalls.",
-      ],
-      registerLink: "https://forms.gle/mURzrhX1H7d7hooR9",
-    },
-  ];
 
   return (
     <div className="w-full bg-gray-900 py-16 px-4 lg:px-16">
@@ -804,14 +249,13 @@ export default function EventsSectionDemo() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        Explore Our Exciting Events
+        Explore Our Technical Events
       </motion.h1>
 
       <Section
         title="Technical Events"
         events={Object.values(technicalEvents)}
       />
-      <Section title="Non-Technical Events" events={nonTechnicalEvents} />
     </div>
   );
 }
