@@ -43,7 +43,7 @@ export default function EventsSectionDemo() {
       ],
       cost: "₹200 per participant",
       icon: "IconEaseInOut",
-      registerLink: "https://docs.google.com/forms/d/e/1FAIpQLSc8VRdPEKoExlfhgQPz-HZ5PFAD9-4Dra0WGxnix-uLZcHP2g/viewform?usp=header",
+      registerLink: "https://docs.google.com/forms/d/e/1FAIpQLScGz49TkKYpOdn5rhRshNl-zFxFkMcwd4aX727RFTECmeI58g/viewform?usp=header",
     },
 
     TechnicalQuiz: {
@@ -78,7 +78,7 @@ export default function EventsSectionDemo() {
       cost: "₹150 per participant",
       teamSize: "Based upon registrations",
       icon: "IconLightbulb",
-      registerLink: "https://docs.google.com/forms/d/e/1FAIpQLSf0_xxbmwPE7lSYVZb5OGIHeEblpJCERqvmpp99fYQ2k3ImhQ/viewform?usp=header",
+      registerLink: "https://forms.gle/N1Vee3TwvHXQosWa6",
       painPoints: [
         "Time Pressure: In the final round, teams must not only answer correctly but also quickly to score higher.",
         "Time Management: Teams must focus on balancing speed and accuracy throughout the competition.",
@@ -116,7 +116,7 @@ export default function EventsSectionDemo() {
       cost: "₹200 per participant",
       teamSize: "Individual",
       icon: "IconHammer",
-      registerLink: "https://docs.google.com/forms/d/e/1FAIpQLSf0-KV_yNLQ5mExeolqvYvg-wNlBPz7V9XHN5NEbQYPqd_QYg/viewform?usp=header",
+      registerLink: "https://forms.gle/5qQgSNg4iTnThVP58",
       painPoints: [
         "Technical Issues: Problems with projectors, internet connectivity, or software can disrupt the flow.",
         "Time Overruns: Poor time management can lead to skipping key sections.",
@@ -158,7 +158,7 @@ export default function EventsSectionDemo() {
       ],
       cost: "₹300 per participant",
       icon: "IconDocumentText",
-      registerLink: "https://docs.google.com/forms/d/e/1FAIpQLSc2AUpy12femVo8YkK91-jTqpgxK9Q7QX3v0W-uZ3ePwuQunw/viewform?usp=header",
+      registerLink: "https://forms.gle/Y79osi7FjywRNgpq7",
     },
     PosterPresentation: {
       title: "Posterium",
@@ -186,7 +186,7 @@ export default function EventsSectionDemo() {
       cost: "₹200 per participant",
       teamSize: "Individual",
       icon: "IconImage",
-      registerLink: "https://docs.google.com/forms/d/e/1FAIpQLSePvu015T4z3exUMz5_TcqtyH5gcd2LADQqKHEsd0yNv9SytQ/viewform?usp=header",
+      registerLink: "https://forms.gle/s73um8timY9GBNXb8",
       painPoints: [
         "Network issues",
         "HDMI cable management",
@@ -223,7 +223,7 @@ export default function EventsSectionDemo() {
       cost: "₹250 per participant",
       teamSize: "Individual",
       icon: "IconDesktop",
-      registerLink: "https://docs.google.com/forms/d/e/1FAIpQLScBj11Y62JhLoHPaSwNugvyRA7121Mf1Eu7hEXDkACCIpzt5g/viewform?usp=header",
+      registerLink: "https://forms.gle/g1C24qiw5QMW3PCAA",
       painPoints: [
         "Time Constraints",
         "Technical Issues",

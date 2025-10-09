@@ -38,9 +38,7 @@ export default function SpotlightPreview() {
           </span>{" "}
           of <span className="text-teal-400 font-semibold">RGMCET</span>,
           featuring{" "}
-          <span className="text-yellow-300 font-semibold">
-            coding challenges
-          </span>
+          
           , <span className="text-pink-300 font-semibold">Poster Presentations</span>,{" "}
           <span className="text-blue-300 font-semibold">Paper Presentations</span>, and{" "}
           <span className="text-red-300 font-semibold">Web Development</span>. Join us

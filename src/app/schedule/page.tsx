@@ -76,7 +76,7 @@ const EventSchedule: React.FC = () => {
         },
          {
           title: "Technical Quiz",
-          time: "1:00 PM - 03:30 PM",
+          time: "12:00 PM - 03:00 PM",
           studentOrganizers: ["Quiz Masters"],
           facultyOrganizers: ["Dr. Knowledge"],
           details: "Test your technical knowledge in this quiz competition.",
