@@ -155,10 +155,11 @@ export default function EventsSectionDemo() {
         "Participants must bring a soft copy (PDF) and a presentation (PPT) of their paper on the day of the event.",
         "Evaluation will be based on innovation, technical depth, content delivery and communication skills and how good you answer for the Q&A.",
         "Certificates will be provided to all participants.",
+        "Note: Participation can be either individual or as a team, with an entry fee of ₹300."
       ],
-      cost: "₹300 per participant",
+      cost: "₹300 per team",
       icon: "IconDocumentText",
-      registerLink: "https://forms.gle/Y79osi7FjywRNgpq7",
+      registerLink: "https://forms.gle/wkKkFEaAzPFfKjaS9",
     },
     PosterPresentation: {
       title: "Posterium",
@@ -220,10 +221,10 @@ export default function EventsSectionDemo() {
         "E-certificates for all participants.",
       ],
 
-      cost: "₹250 per participant",
+      cost: "₹200 per participant",
       teamSize: "Individual",
       icon: "IconDesktop",
-      registerLink: "https://forms.gle/g1C24qiw5QMW3PCAA",
+      registerLink: "https://forms.gle/Dq5fUS931KV5mXTdA",
       painPoints: [
         "Time Constraints",
         "Technical Issues",
@@ -293,7 +294,7 @@ const Event = ({
   description: string;
   rules: string[];
   cost: string;
-  icon: React.ReactNode;
+  icon?: string;
   registerLink: string;
 }) => (
   <div className="bg-gray-800 text-white p-6 rounded-xl shadow-lg w-full sm:w-[350px] md:w-[420px] hover:scale-105 transition-all duration-300 flex flex-col justify-between h-full">
