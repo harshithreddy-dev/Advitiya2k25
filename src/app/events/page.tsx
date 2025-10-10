@@ -43,7 +43,7 @@ export default function EventsSectionDemo() {
       ],
       cost: "₹200 per participant",
       icon: "IconEaseInOut",
-      registerLink: "https://forms.gle/bD2GG4ANVaAYL6x96",
+      registerLink: "https://forms.gle/bD2GG4ANVaAYL6x96M ",
     },
 
     TechnicalQuiz: {
@@ -86,7 +86,7 @@ export default function EventsSectionDemo() {
         "Focus Under Pressure: The dynamic nature of the final round demands sharp focus and effective teamwork.",
       ],
     },
-    Workshop: {
+    Graphinity: {
       title: "Graphinity",
       facultyCoordinators: [
         { name: "M Suleman Basha",
@@ -237,6 +237,45 @@ export default function EventsSectionDemo() {
           "Department of Computer Science & Engineering (DATA SCIENCE)",
         eventName: "ADVITIYA 2K25",
       },
+    },
+    Workshop: {
+      title: "Workshop",
+      facultyCoordinators: [
+        { name: "M Suleman Basha",
+          contact: "+91 9177014186" },
+      ],
+      studentCoordinators: [
+        {
+          name: "I. Harshith Reddy",
+          rollNo: "22091A3232",
+          contact: "+91 9652474457",
+        }
+      ],
+      description: "Unleash your creativity in this digital design competition! Create stunning original designs based on given themes using your favorite graphic design tools.",
+      rules: [
+        "This is an individual participation workshop; team entries are not allowed.",
+        "The session will be a hands-on learning experience, focusing on practical implementation and real-time problem-solving.",
+        "Participants are expected to bring their own laptops for hands-on session.",
+        "Ensure all required software or tools (if instructed prior to the session) are installed before the workshop begins.",
+        "Active participation throughout the session is encouraged to gain maximum benefit.",
+        "Certificates of Participation will be awarded to all attendees.",
+        "Participants are requested to maintain decorum and follow the instructions of the workshop coordinators at all times.",
+      ],
+
+      cost: "₹100 per participant",
+      teamSize: "Individual",
+      icon: "IconHammer",
+      registerLink: "https://forms.gle/5qR2CUaSAtVc8y1S8",
+      painPoints: [
+        "Technical Issues: Problems with projectors, internet connectivity, or software can disrupt the flow.",
+        "Time Overruns: Poor time management can lead to skipping key sections.",
+        "Participant Engagement: Lack of interaction or overly complex topics may lose participant interest.",
+        "Unclear Communication: Misunderstood instructions or explanations can confuse participants.",
+        "Insufficient Materials: Missing handouts, tools, or resources can frustrate attendees.",
+        "Venue Constraints: Limited space, poor lighting, or noise can affect the learning experience.",
+        "Unprepared Facilitators: Lack of rehearsal or familiarity with the content may reduce effectiveness.",
+        "Diverse Skill Levels: Managing participants with vastly different knowledge levels can be challenging.",
+      ],
     },
   };
 
