@@ -43,7 +43,7 @@ export default function EventsSectionDemo() {
       ],
       cost: "₹200 per participant",
       icon: "IconEaseInOut",
-      registerLink: "https://forms.gle/bD2GG4ANVaAYL6x96M ",
+      registerLink: "https://forms.gle/WkMuWmMtuU2Ci7f19",
     },
 
     TechnicalQuiz: {
